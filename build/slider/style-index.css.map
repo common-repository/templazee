@@ -1,0 +1,1 @@
+{"version":3,"file":"slider/style-index.css","mappings":";;;AAAA;EACI;AACJ;;AAEA;EACI;AACJ,C","sources":["webpack://templazee/./src/slider/style.scss"],"sourcesContent":[".splide {\r\n    padding: 0px !important;\r\n}\r\n\r\n.splide__pagination{\r\n    bottom: 70px !important;\r\n}"],"names":[],"sourceRoot":""}

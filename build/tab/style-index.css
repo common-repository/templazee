@@ -1,0 +1,37 @@
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/tab/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+#templazee-tab {
+  max-width: 100% !important;
+}
+#templazee-tab #templazee-tab-content .wp-block-templazee-tabs {
+  display: none;
+}
+#templazee-tab #templazee-tab-content .wp-block-templazee-tabs[data-tab-active=active] {
+  display: block;
+}
+#templazee-tab #templazee-tab-content .wp-block-templazee-tabs[data-tab-active=inactive] {
+  display: none !important;
+}
+#templazee-tab #templazee-tab-content .wp-block-templazee-tabs:first-child {
+  display: block;
+}
+#templazee-tab #templazee-tab-item ul {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+#templazee-tab #templazee-tab-item ul li {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+#templazee-tab-item ul li:not(.inactive):first-child,
+#templazee-tab-item ul li.active {
+  background-color: #000;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

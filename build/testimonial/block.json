@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "templazee/testimonial",
+  "title": "Testimonial",
+  "category": "templazee",
+  "parent": [
+    "templazee/testimonials"
+  ],
+  "description": "Single testimonial block to be used with Testimonials block",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "testimonial",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

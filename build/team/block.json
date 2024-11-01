@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "templazee/team",
+  "title": "Team",
+  "category": "templazee",
+  "parent": [
+    "templazee/teams"
+  ],
+  "description": "Single Team block to be used with Teams block",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "team",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

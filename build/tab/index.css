@@ -1,0 +1,33 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/tab/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+#templazee-tab-content .wp-block-templazee-tabs {
+  display: none;
+}
+#templazee-tab-content .wp-block-templazee-tabs[data-tab-active=active] {
+  display: block;
+}
+#templazee-tab-content .wp-block-templazee-tabs[data-tab-active=inactive] {
+  display: none !important;
+}
+#templazee-tab-content .wp-block-templazee-tabs:first-child {
+  display: block;
+}
+
+#templazee-tab-item ul {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+#templazee-tab-item ul li {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid;
+}
+#templazee-tab-item ul li:hover {
+  padding: 10px 40px !important;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/*# sourceMappingURL=index.css.map*/

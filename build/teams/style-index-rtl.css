@@ -1,0 +1,32 @@
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/teams/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.templazee-teams {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.templazee-team-item {
+  flex-basis: calc(33.33% - 10px); /* Adjust the width and margin */
+  margin-bottom: 20px; /* Adjust the margin */
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .templazee-team-item {
+    flex-basis: calc(50% - 10px); /* Two columns on smaller screens */
+  }
+}
+@media screen and (max-width: 480px) {
+  .templazee-team-item {
+    flex-basis: calc(100% - 10px); /* One column on even smaller screens */
+  }
+}
+/* Adjust alignment when there are only two items */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .templazee-teams {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "templazee/tab",
+  "title": "Tabs",
+  "icon": "table-row-after",
+  "category": "templazee",
+  "description": "Block to add tab to your content.",
+  "attributes": {
+    "tabID": {
+      "type": "string",
+      "default": ""
+    },
+    "tabCount": {
+      "type": "number",
+      "default": 2
+    },
+    "tabLabel1": {
+      "type": "string",
+      "default": "Tab Label 1"
+    },
+    "tabLabel2": {
+      "type": "string",
+      "default": "Tab Label 2"
+    },
+    "tabLabel3": {
+      "type": "string",
+      "default": "Tab Label 3"
+    },
+    "tabLabel4": {
+      "type": "string",
+      "default": "Tab Label 4"
+    },
+    "tabLabel5": {
+      "type": "string",
+      "default": "Tab Label 5"
+    }
+  },
+  "textdomain": "tab",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

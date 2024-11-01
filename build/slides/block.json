@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "templazee/slides",
+  "title": "Slide",
+  "category": "templazee",
+  "parent": [
+    "templazee/slider"
+  ],
+  "description": "Single Slide block to be used with Slider block",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "slides",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}
